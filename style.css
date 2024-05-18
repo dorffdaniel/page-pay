@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ html{
+    height: 100%; 
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    background-image: url("imagem/fund-b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagamento {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid #76106c;
+    height: 630px;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    margin-right: 18px;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.tabela{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.tabela label{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #720c7d;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.tabela input{
+    width: 300px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.cont-telefone{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.cont-telefone .phone{
+    border-radius: 10px;
+    margin-top: 4px;
+    height: 28px;
+    width: 70px;
+
+}
+
+.cont-telefone input{
+    width: 180px;
+}
+
+.info-cartao{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    gap: 8px;
+}
+
+
+.info-cart{
+    border: 3px solid #a40000;
+}
+
+.info-cartao label{
+   font-size: 20px;
+   margin: 0;
+}
+
+.info-cartao option{
+    height: 30px;
+}
+
+.info-cartao input{
+    width: 80px;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-bottom: 8px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2500f4;
+    transition: all 0.6s ease-in-out;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 120px;
+}
+
+button:hover{
+    background-color: #190675;
+}
+
+
+
+
+.content{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(95, 13, 95);
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+}
+
+.m-card{
+    width: 480px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cartao img{
+    width: 80px;
+    justify-content: flex-end;
+}
+
+.chip{
+    height: 100;
+    width: 480px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.chip img{
+    width: 50px;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.texto h2{
+    font-size: 60px;
+    color: #ccc;
+}
+
+.texto h3{
+    color: #ccc;
+}
